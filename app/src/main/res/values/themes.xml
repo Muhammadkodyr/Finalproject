@@ -13,4 +13,482 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="welcome_to_yummy" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/welcome_to_yummy</item>
+        <item name="android:textSize">@dimen/s27</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="letsgo" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/lets_go</item>
+        <item name="android:textSize">@dimen/s27</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="your_recipes_are" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/your_recipes_are_waiting</item>
+        <item name="android:textSize">@dimen/s27</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="signin" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/sign_in</item>
+        <item name="android:textSize">@dimen/s24</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="privacy_policy" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/privacy_policy</item>
+        <item name="android:textSize">@dimen/s13</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="email" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/email</item>
+        <item name="android:textSize">@dimen/s16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="your_email" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/youremail</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="password" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/password</item>
+        <item name="android:textSize">@dimen/s16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="password_black" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/password</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="forgot_password" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/forgot_password</item>
+        <item name="android:textSize">@dimen/s13</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="recommend" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/recommend</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="liked" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/liked</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="my_recipes" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/my_recipes</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="popular" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/popular</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="search_for" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/search_for_recipes</item>
+        <item name="android:textSize">@dimen/s13</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="pizza" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/pizza</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="mac_and_cheese" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/mac_and_cheese</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="plov" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/plov</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="cezar" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/cezar</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="tartaletas" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/tartaletas</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="brownies" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/brownies</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="cookies" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/cookies</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="muffins" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/muffins</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="name" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/name</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="under_1_hour" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/under_1_hour</item>
+        <item name="android:textSize">@dimen/s10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="under_1.5_hour" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/under_1.5_hour</item>
+        <item name="android:textSize">@dimen/s10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="under_30_minutes" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/under_30_minutes</item>
+        <item name="android:textSize">@dimen/s10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="time" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/time</item>
+        <item name="android:textSize">@dimen/s10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="asian" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/asian</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="easy_dinner" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/easy_dinner</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="breakfast" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/breakfast</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="ingredients_for" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/ingredients_for</item>
+        <item name="android:textSize">@dimen/s24</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="chiken" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/chiken</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="snacks" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/snacks</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="desserts" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/desserts</item>
+        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="you_dont_have" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/you_dont_have</item>
+        <item name="android:textSize">@dimen/s24</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="add" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/add</item>
+        <item name="android:textSize">@dimen/s24</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="name_big" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/name</item>
+        <item name="android:textSize">@dimen/s24</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="details" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/details</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
+
+    <style name="ingredients" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/ingredients</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="count" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/count</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="pizza_pepperoni" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/pizza_pepperoni</item>
+        <item name="android:textSize">@dimen/s27</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="brownies_big" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/brownies</item>
+        <item name="android:textSize">@dimen/s27</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="liked_this92" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/liked_this92</item>
+        <item name="android:textSize">@dimen/s13</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="liked_this95" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/liked_this95</item>
+        <item name="android:textSize">@dimen/s13</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="serving" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/servings_8</item>
+        <item name="android:textSize">@dimen/s13</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="brownies_16" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/brownies_16</item>
+        <item name="android:textSize">@dimen/s13</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="self_rising" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/self_rising</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="greek_yougurt" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/greek_yougurt</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="shredde_mozzarella" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/shredde_mozzarella</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="pizza_sauce" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/pizza_sauce</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="pepperoni_slice" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/pepperoni_slice</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="unsalted_butter" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/unsalted_butter</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="semi_sweet_chocolate_chips" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/semi_sweet_chocolate_chips</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="granulated_sugar" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/granulated_sugar</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="brown_sugar" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/brown_sugar</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="vanilla_extract" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/vanilla_extract</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="salt" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/salt</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="large_egg" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/large_egg</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="all_purpose_flour" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/all_purpose_flour</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="dark_chocolate" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/dark_chocolate</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="cup_1" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/cup_1</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="cup_1_2" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/cup_1_2</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="cup_1_3" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/cup_1_3</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="cup_1_4" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/cup_1_4</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="cup_3_4" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/cup_3_4</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="teaspoon" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/teaspoon</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="tablespoon" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/tablespoon</item>
+        <item name="android:textSize">@dimen/s15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    
 </resources>
