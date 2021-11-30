@@ -8,7 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FinalProject">
+        android:theme="@style/Theme.FinalProject"
+        android:fullBackupContent="">
+        <activity
+            android:name=".Mm8"
+            android:exported="true" />
+        <activity
+            android:name=".Mm7"
+            android:exported="true" />
+        <activity
+            android:name=".Mm6"
+            android:exported="true" />
+        <activity
+            android:name=".Mm5"
+            android:exported="true" />
         <activity
             android:name=".Mm4"
             android:exported="true" />
@@ -18,11 +31,7 @@
         <activity
             android:name=".Mm2"
             android:exported="true" />
-        <activity
-            android:name=".m2"
-            android:exported="true"
-            android:label="@string/title_activity_m2"
-            android:theme="@style/Theme.FinalProject.NoActionBar" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

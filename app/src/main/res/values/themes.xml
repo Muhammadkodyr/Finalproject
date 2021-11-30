@@ -212,21 +212,21 @@
 
     <style name="asian" parent="TextAppearance.AppCompat">
         <item name="android:text">@string/asian</item>
-        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textSize">@dimen/s10</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:fontFamily">@font/comfortaa_bold</item>
     </style>
 
     <style name="easy_dinner" parent="TextAppearance.AppCompat">
         <item name="android:text">@string/easy_dinner</item>
-        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textSize">@dimen/s10</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:fontFamily">@font/comfortaa_bold</item>
     </style>
 
     <style name="breakfast" parent="TextAppearance.AppCompat">
         <item name="android:text">@string/breakfast</item>
-        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textSize">@dimen/s10</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:fontFamily">@font/comfortaa_bold</item>
     </style>
@@ -240,21 +240,28 @@
 
     <style name="chiken" parent="TextAppearance.AppCompat">
         <item name="android:text">@string/chiken</item>
-        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textSize">@dimen/s10</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:fontFamily">@font/comfortaa_bold</item>
     </style>
 
     <style name="snacks" parent="TextAppearance.AppCompat">
         <item name="android:text">@string/snacks</item>
-        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textSize">@dimen/s10</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:fontFamily">@font/comfortaa_bold</item>
     </style>
 
     <style name="desserts" parent="TextAppearance.AppCompat">
         <item name="android:text">@string/desserts</item>
-        <item name="android:textSize">@dimen/s18</item>
+        <item name="android:textSize">@dimen/s10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="ingre5" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/ingre5</item>
+        <item name="android:textSize">@dimen/s10</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:fontFamily">@font/comfortaa_bold</item>
     </style>
