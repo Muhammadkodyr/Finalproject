@@ -10,6 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".Mm4"
+            android:exported="true" />
+        <activity
+            android:name=".Mm3"
+            android:exported="true" />
+        <activity
+            android:name=".Mm2"
+            android:exported="true" />
+        <activity
+            android:name=".m2"
+            android:exported="true"
+            android:label="@string/title_activity_m2"
+            android:theme="@style/Theme.FinalProject.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
