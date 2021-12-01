@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayback"
+    tools:context=".Mm4">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/back"
+                android:contentDescription="@string/forimages"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yummy"
+                android:contentDescription="@string/forimages"
+                android:layout_marginHorizontal="100dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/check"
+                android:contentDescription="@string/forimages"/>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/s15"
+            android:layout_marginTop="@dimen/s10"
+            android:contentDescription="@string/forimages"
+            android:src="@drawable/image" />
+
+        <LinearLayout
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="@dimen/s10"
+            android:layout_marginEnd="59dp"
+            android:layout_toEndOf="@+id/image"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/name_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+            <TextView
+                style="@style/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ingred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s15"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="@dimen/s15"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="244dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/ingred"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s10"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/s10"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ingr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s15"
+            android:layout_marginTop="@dimen/s16"
+            android:layout_marginEnd="@dimen/s15"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="244dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/ingr2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s10"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/s10"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ingr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s15"
+            android:layout_marginTop="@dimen/s16"
+            android:layout_marginEnd="@dimen/s15"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="244dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/ingr3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s10"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/s10"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ingr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s15"
+            android:layout_marginTop="@dimen/s16"
+            android:layout_marginEnd="@dimen/s15"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="244dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/ingr4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/s10"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/s10"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/view5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="185dp"
+            android:contentDescription="@string/forimages"
+            android:src="@drawable/plus" />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/grayback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="51dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/discover_white"
+                android:contentDescription="@string/forimages"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/liked"
+                android:contentDescription="@string/forimages"
+                android:layout_marginHorizontal="65dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/myres"
+                android:contentDescription="@string/forimages"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
