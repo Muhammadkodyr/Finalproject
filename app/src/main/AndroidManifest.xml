@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".Mm11"
+            android:exported="true" />
+        <activity
             android:name=".Mm10"
             android:exported="true" />
         <activity
