@@ -18,6 +18,7 @@
         tools:ignore="MissingConstraints">
 
         <LinearLayout
+            android:id="@+id/search"
             android:layout_width="327dp"
             android:layout_height="40dp"
             android:layout_marginStart="40dp"
@@ -98,6 +99,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/layoutbrownies"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/recomend"
@@ -216,6 +218,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/myrecipes_bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/forimages"
@@ -316,6 +319,7 @@
                 android:contentDescription="@string/forimages"/>
 
             <ImageView
+                android:id="@+id/liked_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/liked"

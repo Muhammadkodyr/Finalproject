@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grayback"
-    tools:context=".Mm4">
+    tools:context=".Mm10">
 
     <androidx.appcompat.widget.Toolbar
 
@@ -23,6 +23,7 @@
             android:orientation="horizontal"
             android:gravity="center">
             <ImageView
+                android:id="@+id/back2"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:src="@drawable/back"
@@ -328,12 +329,14 @@
             android:layout_marginStart="51dp">
 
             <ImageView
+                android:id="@+id/discover_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/discover_white"
                 android:contentDescription="@string/forimages"/>
 
             <ImageView
+                android:id="@+id/liked_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/liked"
@@ -341,6 +344,7 @@
                 android:layout_marginHorizontal="65dp"/>
 
             <ImageView
+                android:id="@+id/myrecipes_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/myres"

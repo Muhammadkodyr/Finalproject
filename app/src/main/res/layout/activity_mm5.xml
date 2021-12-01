@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grayback"
-    tools:context=".Mm4">
+    tools:context=".Mm5">
 
     <androidx.appcompat.widget.Toolbar
 
@@ -90,6 +90,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/layoutbrownies"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/recomend"
@@ -140,12 +141,14 @@
             android:layout_marginStart="51dp">
 
             <ImageView
+                android:id="@+id/discover_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/discover"
                 android:contentDescription="@string/forimages"/>
 
             <ImageView
+                android:id="@+id/liked_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/liked_white"
@@ -153,6 +156,7 @@
                 android:layout_marginHorizontal="65dp"/>
 
             <ImageView
+                android:id="@+id/myrecipes_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/myres"

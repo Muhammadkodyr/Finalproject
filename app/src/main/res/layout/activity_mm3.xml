@@ -99,6 +99,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <Button
+            android:id="@+id/signin2"
             style="@style/signin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
