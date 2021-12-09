@@ -49,11 +49,13 @@
             android:layout_marginStart="@dimen/s15"
             android:layout_marginTop="20dp" />
 
-        <TextView
+        <EditText
             style="@style/your_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/s15" />
+            android:layout_marginStart="@dimen/s15"
+            tools:ignore="Autofill,LabelFor"
+            android:inputType="text" />
 
         <View
             android:layout_width="300dp"
@@ -68,11 +70,13 @@
             android:layout_marginStart="@dimen/s15"
             android:layout_marginTop="20sp" />
 
-        <TextView
+        <EditText
             style="@style/password_black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/s15" />
+            android:layout_marginStart="@dimen/s15"
+            tools:ignore="Autofill,LabelFor"
+            android:inputType="text"/>
 
         <View
             android:layout_width="300dp"
@@ -101,7 +105,7 @@
         <Button
             android:id="@+id/signin2"
             style="@style/signin"
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:background="@drawable/rectangle25"
             android:textAllCaps="false" />

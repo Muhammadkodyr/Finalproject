@@ -34,14 +34,12 @@
         <Button
             android:id="@+id/letsgo"
             style="@style/letsgo"
-            android:layout_width="wrap_content"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/s27"
             android:background="@drawable/rectangle25"
             android:textAllCaps="false" />
 
-
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

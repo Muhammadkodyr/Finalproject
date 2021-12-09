@@ -26,11 +26,14 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <TextView
+            <EditText
                 style="@style/search_for"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp" />
+                android:layout_marginStart="50dp"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                tools:ignore="LabelFor" />
 
             <ImageView
                 android:layout_width="25dp"
