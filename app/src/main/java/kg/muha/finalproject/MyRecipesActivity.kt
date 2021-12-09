@@ -6,27 +6,28 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.LinearLayout
 
-class Mm7 : AppCompatActivity() {
+class MyRecipesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_mm7)
+        setContentView(R.layout.activity_my_recipes)
 
         val discover = findViewById<ImageView>(R.id.discover_bottom)
 
         discover.setOnClickListener{
-            startActivity(Intent(this,Mm4::class.java))
+            startActivity(Intent(this,DiscoverActivity::class.java))
         }
 
         val liked = findViewById<ImageView>(R.id.liked_bottom)
 
         liked.setOnClickListener{
-            startActivity(Intent(this,Mm5::class.java))
+            startActivity(Intent(this,LikedActivity::class.java))
         }
 
-        val plus = findViewById<LinearLayout>(R.id.plus)
+        val add = findViewById<LinearLayout>(R.id.add)
 
-        plus.setOnClickListener{
-            startActivity(Intent(this,Mm9::class.java))
+        add.setOnClickListener{
+            startActivity(Intent(this,AddRecipe2Activity::class.java))
         }
+
     }
 }

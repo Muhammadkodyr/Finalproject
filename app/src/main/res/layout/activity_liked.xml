@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grayback"
-    tools:context=".Mm7">
+    tools:context=".LikedActivity">
 
     <androidx.appcompat.widget.Toolbar
 
@@ -26,15 +26,14 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/forimages"
-                android:src="@drawable/yummy" />
+                android:src="@drawable/yummy"
+                android:contentDescription="@string/forimages" />
 
         </LinearLayout>
 
     </androidx.appcompat.widget.Toolbar>
 
     <ScrollView
-        android:id="@+id/scrollView2"
         android:layout_width="377dp"
         android:layout_height="595dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
@@ -57,7 +56,7 @@
                 tools:ignore="UselessParent">
 
                 <TextView
-                    style="@style/my_recipes"
+                    style="@style/liked"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
@@ -77,15 +76,43 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/forimages"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/pizza" />
 
                 <TextView
-                    style="@style/name"
+                    style="@style/pizza"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    style="@style/time"
+                    style="@style/under_1_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutbrownies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recomend"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="@dimen/s10"
+                android:layout_marginEnd="@dimen/s15"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/forimages"
+                    android:src="@drawable/brownies" />
+
+                <TextView
+                    style="@style/brownies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/under_1.5_hour"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </LinearLayout>
@@ -95,23 +122,6 @@
 
 
     </ScrollView>
-
-    <LinearLayout
-        android:id="@+id/plus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="260dp"
-        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="30dp">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/forimages"
-            android:src="@drawable/plus" />
-    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
@@ -126,37 +136,35 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="51dp"
+            android:orientation="horizontal"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_marginStart="51dp">
 
             <ImageView
                 android:id="@+id/discover_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/forimages"
-                android:src="@drawable/discover" />
+                android:src="@drawable/discover"
+                android:contentDescription="@string/forimages"/>
 
             <ImageView
                 android:id="@+id/liked_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="65dp"
+                android:src="@drawable/liked_white"
                 android:contentDescription="@string/forimages"
-                android:src="@drawable/liked" />
+                android:layout_marginHorizontal="65dp"/>
 
             <ImageView
                 android:id="@+id/myrecipes_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/forimages"
-                android:src="@drawable/myres_white" />
+                android:src="@drawable/myres"
+                android:contentDescription="@string/forimages"/>
 
         </LinearLayout>
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,37 +11,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
-            android:name=".Mm11"
+            android:name=".BrowniesActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm10"
+            android:name=".PizzaPepperoniActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm9"
+            android:name=".AddRecipe2Activity"
             android:exported="true" />
         <activity
-            android:name=".Mm8"
+            android:name=".SearchActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm7"
+            android:name=".AddRecipeActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm6"
+            android:name=".MyRecipesActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm5"
+            android:name=".LikedActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm4"
+            android:name=".DiscoverActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm3"
+            android:name=".EmailActivity"
             android:exported="true" />
         <activity
-            android:name=".Mm2"
+            android:name=".SigninActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

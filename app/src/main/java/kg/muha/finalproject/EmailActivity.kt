@@ -5,15 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Mm3 : AppCompatActivity() {
+class EmailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_mm3)
+        setContentView(R.layout.activity_email)
 
         val signin2 = findViewById<Button>(R.id.signin2)
 
         signin2.setOnClickListener{
-            startActivity(Intent(this,Mm4::class.java))
+            startActivity(Intent(this,DiscoverActivity::class.java))
         }
     }
 }

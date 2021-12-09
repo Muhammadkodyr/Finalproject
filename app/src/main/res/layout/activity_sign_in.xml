@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grayback"
-    tools:context=".Mm3">
+    tools:context=".SigninActivity"
+    android:background="@color/grayback">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="92dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,103 +26,61 @@
             android:src="@drawable/yummy" />
 
         <TextView
-            style="@style/signin"
+            style="@style/your_recipes_are"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="333dp"
-        android:layout_height="238dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/rectangle16"
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-        <TextView
-            style="@style/email"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/s15"
-            android:layout_marginTop="20dp" />
+            android:contentDescription="@string/forimages"
+            android:src="@drawable/facebook" />
 
-        <EditText
-            style="@style/your_email"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/s15"
-            tools:ignore="Autofill,LabelFor"
-            android:inputType="text" />
+            android:layout_marginVertical="@dimen/s10"
+            android:contentDescription="@string/forimages"
+            android:src="@drawable/google" />
 
-        <View
-            android:layout_width="300dp"
-            android:layout_height="2dp"
-            android:layout_marginStart="@dimen/s15"
-            android:background="@color/black" />
-
-        <TextView
-            style="@style/password"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/s15"
-            android:layout_marginTop="20sp" />
-
-        <EditText
-            style="@style/password_black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/s15"
-            tools:ignore="Autofill,LabelFor"
-            android:inputType="text"/>
-
-        <View
-            android:layout_width="300dp"
-            android:layout_height="2dp"
-            android:layout_marginStart="@dimen/s15"
-            android:background="@color/black" />
-
-        <TextView
-            style="@style/forgot_password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="191dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+            android:contentDescription="@string/forimages"
+            android:src="@drawable/apple" />
 
         <Button
-            android:id="@+id/signin2"
+            android:id="@+id/signin"
             style="@style/signin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
             android:background="@drawable/rectangle25"
             android:textAllCaps="false" />
-
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        app:layout_constraintVertical_bias="0.925">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.925"
+        android:layout_marginBottom="20sp">
 
         <TextView
             style="@style/privacy_policy"
@@ -131,5 +89,6 @@
             android:gravity="center" />
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
